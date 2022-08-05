@@ -10,7 +10,6 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            Console.SetBufferSize(80, 25);
             HorizontalLine line = new HorizontalLine(5,10,8,'+');
             VerticalLine lineV = new VerticalLine(0, 10, 14, '+');
             line.DrawHorizontalLine();
