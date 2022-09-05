@@ -7,7 +7,7 @@ namespace Snake
         int mapWidth;
         int mapHeight;
         char sym;
-
+        // Random подключается по умолчанию через System
         Random random = new Random();
         
         public FoodCreator(int mapWidth, int mapHeight, char sym)

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Snake
 {
+    // перечисление направлений движения
     enum Direction
     {
             LEFT,
