@@ -12,7 +12,7 @@ namespace Snake
         static void Main(string[] args)
         {
             Console.SetBufferSize(120, 30);
-
+            // Создание вертикальных линий
             HorizontalLine upLine = new HorizontalLine(0, 78, 0, '#');
             HorizontalLine downLine = new HorizontalLine(0, 78, 24, '#');
             VerticalLine leftLine = new VerticalLine(0, 24, 0, '#');
