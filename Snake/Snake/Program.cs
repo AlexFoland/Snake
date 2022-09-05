@@ -21,11 +21,11 @@ namespace Snake
             downLine.DrawFigure();
             leftLine.DrawFigure();
             rightLine.DrawFigure();
-
+            // создание змейки
             Point p = new Point(7,9,'*');
             Snake snake = new Snake(p, 4, Direction.RIGHT);
             snake.DrawFigure();
-
+            // создание еды
             FoodCreator foodCreator = new FoodCreator(80, 25, '$');
             Point food = foodCreator.CreateFood();
             food.Draw();
