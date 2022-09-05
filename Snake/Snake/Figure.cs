@@ -10,7 +10,7 @@ namespace Snake
     {
         protected List<Point> plist;
 
-        public void DrawFigure()
+        public virtual void DrawFigure()
         {
             foreach (Point p in plist)
             {

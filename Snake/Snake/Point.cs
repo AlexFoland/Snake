@@ -25,9 +25,16 @@ namespace Snake
             y = p.y;
             sym = p.sym;
         }
+
+        public bool isHit(Point p)
+        {
+            return p.x == this.x && p.y == this.y;
+        }
+
         // Функция Draw
         public void Draw()
         {
+            Console.CursorVisible = false;
             Console.SetCursorPosition(x,y);
             Console.Write(sym);
         }

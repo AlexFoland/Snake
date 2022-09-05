@@ -17,5 +17,12 @@ namespace Snake
                 plist.Add(p);
             }
         }
+        // override можно использовать если в классе Figure метод с пометкой virtual
+        public override void DrawFigure()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            base.DrawFigure();
+            Console.ForegroundColor = ConsoleColor.Green;
+        }
     }
 }
